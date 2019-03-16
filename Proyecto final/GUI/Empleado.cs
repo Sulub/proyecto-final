@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Proyecto_final
 {
-    public partial class Empleado : MetroFramework.Forms.MetroForm
+    public partial class Empleado : Form
     {
         public Empleado()
         {
