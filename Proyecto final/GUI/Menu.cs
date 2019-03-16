@@ -86,15 +86,15 @@ namespace Proyecto_final
 
         private void btn_Contractil_Click(object sender, EventArgs e)
         {
-            if(Marco_Menu.Width==220)
+            if (Marco_Menu.Width == 193)
             {
                 Marco_Menu.Width = 10;
                 perfil.Width = 10;
             }
             else
             {
-                Marco_Menu.Width = 220;
-                perfil.Width = 220;
+                Marco_Menu.Width = 193;
+                perfil.Width = 193;
             }
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_final
 {
-    public partial class Cliente : MetroFramework.Forms.MetroForm
+    public partial class Cliente_Esporadico : MetroFramework.Forms.MetroForm
     {
-        public Cliente()
+        public Cliente_Esporadico()
         {
             InitializeComponent();
         }
