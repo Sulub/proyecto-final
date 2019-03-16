@@ -38,7 +38,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_Cliente = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.perfil = new System.Windows.Forms.Panel();
@@ -144,7 +144,7 @@
             this.Marco_Menu.Controls.Add(this.panel4);
             this.Marco_Menu.Controls.Add(this.panel2);
             this.Marco_Menu.Controls.Add(this.panel3);
-            this.Marco_Menu.Controls.Add(this.button3);
+            this.Marco_Menu.Controls.Add(this.btn_Cliente);
             this.Marco_Menu.Controls.Add(this.button2);
             this.Marco_Menu.Controls.Add(this.button1);
             this.Marco_Menu.Controls.Add(this.perfil);
@@ -180,22 +180,22 @@
             this.panel3.Size = new System.Drawing.Size(5, 32);
             this.panel3.TabIndex = 3;
             // 
-            // button3
+            // btn_Cliente
             // 
-            this.button3.BackColor = System.Drawing.Color.Honeydew;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(7, 197);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(212, 37);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Cliente";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_Cliente.BackColor = System.Drawing.Color.Honeydew;
+            this.btn_Cliente.FlatAppearance.BorderSize = 0;
+            this.btn_Cliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
+            this.btn_Cliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
+            this.btn_Cliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Cliente.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cliente.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
+            this.btn_Cliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Cliente.Location = new System.Drawing.Point(7, 197);
+            this.btn_Cliente.Name = "btn_Cliente";
+            this.btn_Cliente.Size = new System.Drawing.Size(212, 37);
+            this.btn_Cliente.TabIndex = 6;
+            this.btn_Cliente.Text = "Cliente";
+            this.btn_Cliente.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -358,7 +358,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_Cliente;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
     }
