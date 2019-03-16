@@ -35,6 +35,14 @@
             this.btn_Maximizar = new System.Windows.Forms.PictureBox();
             this.btn_Cerrar = new System.Windows.Forms.PictureBox();
             this.Marco_Menu = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btn_Cliente = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -45,14 +53,6 @@
             this.usuario = new System.Windows.Forms.PictureBox();
             this.btn_Empleado = new System.Windows.Forms.Button();
             this.Panel_Contenedor = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.barra_Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Contractil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Restaurar)).BeginInit();
@@ -60,9 +60,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_Maximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Cerrar)).BeginInit();
             this.Marco_Menu.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.perfil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.usuario)).BeginInit();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // barra_Titulo
@@ -162,6 +162,91 @@
             this.Marco_Menu.Name = "Marco_Menu";
             this.Marco_Menu.Size = new System.Drawing.Size(193, 615);
             this.Marco_Menu.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel4.Location = new System.Drawing.Point(7, 305);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(5, 29);
+            this.panel4.TabIndex = 4;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel2.Location = new System.Drawing.Point(7, 254);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(5, 29);
+            this.panel2.TabIndex = 4;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel1.Location = new System.Drawing.Point(6, 153);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(5, 29);
+            this.panel1.TabIndex = 4;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Controls.Add(this.button4);
+            this.panel5.Controls.Add(this.button3);
+            this.panel5.Location = new System.Drawing.Point(34, 348);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(158, 98);
+            this.panel5.TabIndex = 7;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel7.Location = new System.Drawing.Point(3, 57);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(5, 29);
+            this.panel7.TabIndex = 4;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel6.Location = new System.Drawing.Point(3, 3);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(5, 29);
+            this.panel6.TabIndex = 4;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(9, 57);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(149, 29);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Pensionado";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(13, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(145, 29);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Esporadico";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -296,91 +381,6 @@
             this.Panel_Contenedor.TabIndex = 2;
             this.Panel_Contenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel_Contenedor_Paint);
             // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.panel7);
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Controls.Add(this.button4);
-            this.panel5.Controls.Add(this.button3);
-            this.panel5.Location = new System.Drawing.Point(34, 348);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(158, 98);
-            this.panel5.TabIndex = 7;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(13, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(145, 29);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Esporadico";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(9, 57);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(149, 29);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Pensionado";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel1.Location = new System.Drawing.Point(6, 153);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(5, 29);
-            this.panel1.TabIndex = 4;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel2.Location = new System.Drawing.Point(7, 254);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(5, 29);
-            this.panel2.TabIndex = 4;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel4.Location = new System.Drawing.Point(7, 305);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(5, 29);
-            this.panel4.TabIndex = 4;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel6.Location = new System.Drawing.Point(3, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(5, 29);
-            this.panel6.TabIndex = 4;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel7.Location = new System.Drawing.Point(3, 57);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 29);
-            this.panel7.TabIndex = 4;
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -400,10 +400,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_Maximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Cerrar)).EndInit();
             this.Marco_Menu.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.perfil.ResumeLayout(false);
             this.perfil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.usuario)).EndInit();
-            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
