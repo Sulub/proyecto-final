@@ -303,7 +303,7 @@
             // cbo_Tipo_Veiculo1
             // 
             this.cbo_Tipo_Veiculo1.FormattingEnabled = true;
-            this.cbo_Tipo_Veiculo1.Location = new System.Drawing.Point(149, 20);
+            this.cbo_Tipo_Veiculo1.Location = new System.Drawing.Point(140, 36);
             this.cbo_Tipo_Veiculo1.Name = "cbo_Tipo_Veiculo1";
             this.cbo_Tipo_Veiculo1.Size = new System.Drawing.Size(104, 21);
             this.cbo_Tipo_Veiculo1.TabIndex = 10;
@@ -311,7 +311,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(158, 4);
+            this.label5.Location = new System.Drawing.Point(158, 20);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 9;
