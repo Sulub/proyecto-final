@@ -102,6 +102,11 @@ namespace Proyecto_final
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

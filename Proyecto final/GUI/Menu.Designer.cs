@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.barra_Titulo = new System.Windows.Forms.Panel();
             this.btn_Restaurar = new System.Windows.Forms.PictureBox();
             this.btn_Minimizar = new System.Windows.Forms.PictureBox();
             this.btn_Maximizar = new System.Windows.Forms.PictureBox();
             this.btn_Cerrar = new System.Windows.Forms.PictureBox();
             this.Marco_Menu = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btn_Cliente = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.perfil = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_Salir = new System.Windows.Forms.Button();
-            this.usuario = new System.Windows.Forms.PictureBox();
             this.btn_Empleado = new System.Windows.Forms.Button();
+            this.btn_Salir = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.perfil = new System.Windows.Forms.Panel();
+            this.usuario = new System.Windows.Forms.PictureBox();
             this.Panel_Contenedor = new System.Windows.Forms.Panel();
             this.barra_Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Restaurar)).BeginInit();
@@ -76,10 +76,12 @@
             // btn_Restaurar
             // 
             this.btn_Restaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Restaurar.BackColor = System.Drawing.Color.MediumBlue;
+            this.btn_Restaurar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btn_Restaurar.Image = global::Proyecto_final.Properties.Resources.res;
-            this.btn_Restaurar.Location = new System.Drawing.Point(1230, 4);
+            this.btn_Restaurar.Location = new System.Drawing.Point(1225, 4);
             this.btn_Restaurar.Name = "btn_Restaurar";
-            this.btn_Restaurar.Size = new System.Drawing.Size(25, 25);
+            this.btn_Restaurar.Size = new System.Drawing.Size(39, 26);
             this.btn_Restaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btn_Restaurar.TabIndex = 3;
             this.btn_Restaurar.TabStop = false;
@@ -89,10 +91,12 @@
             // btn_Minimizar
             // 
             this.btn_Minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Minimizar.BackColor = System.Drawing.Color.MediumBlue;
+            this.btn_Minimizar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btn_Minimizar.Image = global::Proyecto_final.Properties.Resources.minimazar;
-            this.btn_Minimizar.Location = new System.Drawing.Point(1194, 4);
+            this.btn_Minimizar.Location = new System.Drawing.Point(1185, 4);
             this.btn_Minimizar.Name = "btn_Minimizar";
-            this.btn_Minimizar.Size = new System.Drawing.Size(25, 25);
+            this.btn_Minimizar.Size = new System.Drawing.Size(34, 26);
             this.btn_Minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btn_Minimizar.TabIndex = 2;
             this.btn_Minimizar.TabStop = false;
@@ -114,11 +118,13 @@
             // btn_Cerrar
             // 
             this.btn_Cerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Cerrar.BackColor = System.Drawing.Color.Red;
+            this.btn_Cerrar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btn_Cerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Cerrar.Image = global::Proyecto_final.Properties.Resources.cerrar;
-            this.btn_Cerrar.Location = new System.Drawing.Point(1270, 4);
+            this.btn_Cerrar.Location = new System.Drawing.Point(1266, 4);
             this.btn_Cerrar.Name = "btn_Cerrar";
-            this.btn_Cerrar.Size = new System.Drawing.Size(25, 25);
+            this.btn_Cerrar.Size = new System.Drawing.Size(29, 26);
             this.btn_Cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btn_Cerrar.TabIndex = 0;
             this.btn_Cerrar.TabStop = false;
@@ -129,9 +135,9 @@
             this.Marco_Menu.BackColor = System.Drawing.Color.Navy;
             this.Marco_Menu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Marco_Menu.Controls.Add(this.btn_Cliente);
+            this.Marco_Menu.Controls.Add(this.btn_Empleado);
             this.Marco_Menu.Controls.Add(this.button2);
             this.Marco_Menu.Controls.Add(this.button1);
-            this.Marco_Menu.Controls.Add(this.btn_Empleado);
             this.Marco_Menu.Controls.Add(this.btn_Salir);
             this.Marco_Menu.Controls.Add(this.panel5);
             this.Marco_Menu.Controls.Add(this.perfil);
@@ -141,60 +147,15 @@
             this.Marco_Menu.Size = new System.Drawing.Size(193, 615);
             this.Marco_Menu.TabIndex = 1;
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Navy;
-            this.panel5.Controls.Add(this.button4);
-            this.panel5.Controls.Add(this.button3);
-            this.panel5.ForeColor = System.Drawing.Color.White;
-            this.panel5.Location = new System.Drawing.Point(12, 424);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(167, 111);
-            this.panel5.TabIndex = 7;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Navy;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(9, 56);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(149, 45);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Pensionado";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Navy;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(9, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 47);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Esporadico";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
             // btn_Cliente
             // 
-            this.btn_Cliente.BackColor = System.Drawing.Color.Navy;
+            this.btn_Cliente.BackColor = System.Drawing.Color.Lavender;
             this.btn_Cliente.FlatAppearance.BorderSize = 0;
             this.btn_Cliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
             this.btn_Cliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
             this.btn_Cliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Cliente.Font = new System.Drawing.Font("Times New Roman", 20.25F);
-            this.btn_Cliente.ForeColor = System.Drawing.Color.White;
+            this.btn_Cliente.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cliente.ForeColor = System.Drawing.Color.Navy;
             this.btn_Cliente.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
             this.btn_Cliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Cliente.Location = new System.Drawing.Point(4, 367);
@@ -206,13 +167,13 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Navy;
+            this.button2.BackColor = System.Drawing.Color.Lavender;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 20.25F);
-            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Navy;
             this.button2.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(4, 253);
@@ -224,13 +185,13 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Navy;
+            this.button1.BackColor = System.Drawing.Color.Lavender;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 20.25F);
-            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Navy;
             this.button1.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(4, 310);
@@ -240,26 +201,24 @@
             this.button1.Text = "Cajones";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // perfil
+            // btn_Empleado
             // 
-            this.perfil.BackColor = System.Drawing.Color.Navy;
-            this.perfil.Controls.Add(this.label1);
-            this.perfil.Controls.Add(this.usuario);
-            this.perfil.ForeColor = System.Drawing.Color.White;
-            this.perfil.Location = new System.Drawing.Point(0, -1);
-            this.perfil.Name = "perfil";
-            this.perfil.Size = new System.Drawing.Size(192, 191);
-            this.perfil.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 153);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(172, 34);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Bienvenido";
+            this.btn_Empleado.BackColor = System.Drawing.Color.Lavender;
+            this.btn_Empleado.FlatAppearance.BorderSize = 0;
+            this.btn_Empleado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
+            this.btn_Empleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
+            this.btn_Empleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Empleado.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Empleado.ForeColor = System.Drawing.Color.Navy;
+            this.btn_Empleado.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
+            this.btn_Empleado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Empleado.Location = new System.Drawing.Point(4, 196);
+            this.btn_Empleado.Name = "btn_Empleado";
+            this.btn_Empleado.Size = new System.Drawing.Size(182, 51);
+            this.btn_Empleado.TabIndex = 1;
+            this.btn_Empleado.Text = "Empleado";
+            this.btn_Empleado.UseVisualStyleBackColor = false;
+            this.btn_Empleado.Click += new System.EventHandler(this.btn_Empleado_Click);
             // 
             // btn_Salir
             // 
@@ -277,39 +236,79 @@
             this.btn_Salir.UseVisualStyleBackColor = false;
             this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Lavender;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.button4);
+            this.panel5.Controls.Add(this.button3);
+            this.panel5.ForeColor = System.Drawing.Color.White;
+            this.panel5.Location = new System.Drawing.Point(12, 424);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(167, 111);
+            this.panel5.TabIndex = 7;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Navy;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(9, 59);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(149, 45);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Pensionado";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Navy;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(9, 5);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(149, 47);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Esporadico";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // perfil
+            // 
+            this.perfil.BackColor = System.Drawing.Color.Navy;
+            this.perfil.Controls.Add(this.usuario);
+            this.perfil.ForeColor = System.Drawing.Color.White;
+            this.perfil.Location = new System.Drawing.Point(0, -1);
+            this.perfil.Name = "perfil";
+            this.perfil.Size = new System.Drawing.Size(192, 191);
+            this.perfil.TabIndex = 3;
+            // 
             // usuario
             // 
+            this.usuario.BackColor = System.Drawing.Color.Lavender;
             this.usuario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.usuario.Image = global::Proyecto_final.Properties.Resources.hombre;
-            this.usuario.Location = new System.Drawing.Point(2, 2);
+            this.usuario.Location = new System.Drawing.Point(3, 19);
             this.usuario.Name = "usuario";
-            this.usuario.Size = new System.Drawing.Size(186, 144);
+            this.usuario.Size = new System.Drawing.Size(186, 158);
             this.usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.usuario.TabIndex = 0;
             this.usuario.TabStop = false;
             // 
-            // btn_Empleado
-            // 
-            this.btn_Empleado.BackColor = System.Drawing.Color.Navy;
-            this.btn_Empleado.FlatAppearance.BorderSize = 0;
-            this.btn_Empleado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
-            this.btn_Empleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
-            this.btn_Empleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Empleado.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Empleado.ForeColor = System.Drawing.Color.White;
-            this.btn_Empleado.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
-            this.btn_Empleado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Empleado.Location = new System.Drawing.Point(4, 196);
-            this.btn_Empleado.Name = "btn_Empleado";
-            this.btn_Empleado.Size = new System.Drawing.Size(182, 51);
-            this.btn_Empleado.TabIndex = 1;
-            this.btn_Empleado.Text = "Empleado";
-            this.btn_Empleado.UseVisualStyleBackColor = false;
-            this.btn_Empleado.Click += new System.EventHandler(this.btn_Empleado_Click);
-            // 
             // Panel_Contenedor
             // 
             this.Panel_Contenedor.BackColor = System.Drawing.Color.MintCream;
+            this.Panel_Contenedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Contenedor.BackgroundImage")));
+            this.Panel_Contenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Panel_Contenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel_Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel_Contenedor.Location = new System.Drawing.Point(193, 35);
@@ -338,7 +337,6 @@
             this.Marco_Menu.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.perfil.ResumeLayout(false);
-            this.perfil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.usuario)).EndInit();
             this.ResumeLayout(false);
 
@@ -356,7 +354,6 @@
         private System.Windows.Forms.Button btn_Empleado;
         private System.Windows.Forms.Panel perfil;
         private System.Windows.Forms.PictureBox usuario;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_Salir;
         private System.Windows.Forms.Button btn_Cliente;
         private System.Windows.Forms.Button button2;
