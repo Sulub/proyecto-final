@@ -73,9 +73,79 @@ namespace Proyecto_final.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _108448 {
+            get {
+                object obj = ResourceManager.GetObject("108448", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1600 {
+            get {
+                object obj = ResourceManager.GetObject("1600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _16001 {
+            get {
+                object obj = ResourceManager.GetObject("16001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _16247 {
+            get {
+                object obj = ResourceManager.GetObject("16247", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _25235 {
             get {
                 object obj = ResourceManager.GetObject("25235", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _32074 {
+            get {
+                object obj = ResourceManager.GetObject("32074", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _32233 {
+            get {
+                object obj = ResourceManager.GetObject("32233", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _322331 {
+            get {
+                object obj = ResourceManager.GetObject("322331", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +326,28 @@ namespace Proyecto_final.Properties {
         internal static System.Drawing.Bitmap empresario__1_ {
             get {
                 object obj = ResourceManager.GetObject("empresario (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels {
+            get {
+                object obj = ResourceManager.GetObject("fef0c563c39f2746c35604e969ffe3ef-silhueta-de-vista-frontal-do-carro-bmw-by-vexels" +
+                        "", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia {
+            get {
+                object obj = ResourceManager.GetObject("fef0c563c39f2746c35604e969ffe3ef-silhueta-de-vista-frontal-do-carro-bmw-by-vexels" +
+                        " - copia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
