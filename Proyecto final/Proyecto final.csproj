@@ -51,8 +51,15 @@
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\VisualBasic.PowerPacks.Vs.1.0.0\lib\Microsoft.VisualBasic.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\VisualBasic.PowerPacks.Vs.1.0.0\lib\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -74,6 +81,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\Cajones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Cajones.Designer.cs">
+      <DependentUpon>Cajones.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Cliente Esporadico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +113,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Cajones.resx">
+      <DependentUpon>Cajones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Cliente Esporadico.resx">
       <DependentUpon>Cliente Esporadico.cs</DependentUpon>
     </EmbeddedResource>
@@ -234,6 +250,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32074.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\322331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\108448.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fef0c563c39f2746c35604e969ffe3ef-silhueta-de-vista-frontal-do-carro-bmw-by-vexels - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fef0c563c39f2746c35604e969ffe3ef-silhueta-de-vista-frontal-do-carro-bmw-by-vexels.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
