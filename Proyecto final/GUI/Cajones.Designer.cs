@@ -153,6 +153,7 @@
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
             this.pictureBox67 = new System.Windows.Forms.PictureBox();
             this.pictureBox68 = new System.Windows.Forms.PictureBox();
+            this.metroButton54 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
@@ -710,7 +711,8 @@
             // 
             // metroButton45
             // 
-            this.metroButton45.BackColor = System.Drawing.Color.LightGray;
+            this.metroButton45.BackColor = System.Drawing.Color.DimGray;
+            this.metroButton45.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.metroButton45.Location = new System.Drawing.Point(1123, 121);
             this.metroButton45.Name = "metroButton45";
             this.metroButton45.Size = new System.Drawing.Size(25, 65);
@@ -729,6 +731,7 @@
             // 
             // pictureBox33
             // 
+            this.pictureBox33.BackColor = System.Drawing.Color.White;
             this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox33.ErrorImage = null;
             this.pictureBox33.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -741,6 +744,7 @@
             // 
             // pictureBox54
             // 
+            this.pictureBox54.BackColor = System.Drawing.Color.White;
             this.pictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox54.ErrorImage = null;
             this.pictureBox54.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -753,6 +757,7 @@
             // 
             // pictureBox52
             // 
+            this.pictureBox52.BackColor = System.Drawing.Color.White;
             this.pictureBox52.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox52.ErrorImage = null;
             this.pictureBox52.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -765,6 +770,7 @@
             // 
             // pictureBox51
             // 
+            this.pictureBox51.BackColor = System.Drawing.Color.White;
             this.pictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox51.ErrorImage = null;
             this.pictureBox51.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -777,6 +783,7 @@
             // 
             // pictureBox50
             // 
+            this.pictureBox50.BackColor = System.Drawing.Color.White;
             this.pictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox50.ErrorImage = null;
             this.pictureBox50.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -789,6 +796,7 @@
             // 
             // pictureBox49
             // 
+            this.pictureBox49.BackColor = System.Drawing.Color.White;
             this.pictureBox49.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox49.ErrorImage = null;
             this.pictureBox49.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -801,6 +809,7 @@
             // 
             // pictureBox48
             // 
+            this.pictureBox48.BackColor = System.Drawing.Color.White;
             this.pictureBox48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox48.ErrorImage = null;
             this.pictureBox48.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -813,6 +822,7 @@
             // 
             // pictureBox47
             // 
+            this.pictureBox47.BackColor = System.Drawing.Color.White;
             this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox47.ErrorImage = null;
             this.pictureBox47.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -909,6 +919,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.Color.LawnGreen;
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox7.ErrorImage = null;
             this.pictureBox7.Image = global::Proyecto_final.Properties.Resources._16247;
@@ -969,6 +980,7 @@
             // 
             // pictureBox69
             // 
+            this.pictureBox69.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox69.ErrorImage = null;
             this.pictureBox69.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox69.Location = new System.Drawing.Point(872, 563);
@@ -980,6 +992,7 @@
             // 
             // pictureBox65
             // 
+            this.pictureBox65.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox65.ErrorImage = null;
             this.pictureBox65.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox65.Location = new System.Drawing.Point(685, 563);
@@ -991,6 +1004,7 @@
             // 
             // pictureBox63
             // 
+            this.pictureBox63.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox63.ErrorImage = null;
             this.pictureBox63.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox63.Location = new System.Drawing.Point(494, 563);
@@ -1002,6 +1016,7 @@
             // 
             // pictureBox66
             // 
+            this.pictureBox66.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox66.ErrorImage = null;
             this.pictureBox66.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox66.Location = new System.Drawing.Point(305, 563);
@@ -1090,6 +1105,7 @@
             // 
             // pictureBox53
             // 
+            this.pictureBox53.BackColor = System.Drawing.Color.White;
             this.pictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox53.ErrorImage = null;
             this.pictureBox53.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1115,6 +1131,7 @@
             // 
             // pictureBox40
             // 
+            this.pictureBox40.BackColor = System.Drawing.Color.White;
             this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox40.ErrorImage = null;
             this.pictureBox40.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1127,6 +1144,7 @@
             // 
             // pictureBox41
             // 
+            this.pictureBox41.BackColor = System.Drawing.Color.White;
             this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox41.ErrorImage = null;
             this.pictureBox41.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1139,6 +1157,7 @@
             // 
             // pictureBox42
             // 
+            this.pictureBox42.BackColor = System.Drawing.Color.White;
             this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox42.ErrorImage = null;
             this.pictureBox42.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1151,6 +1170,7 @@
             // 
             // pictureBox43
             // 
+            this.pictureBox43.BackColor = System.Drawing.Color.White;
             this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox43.ErrorImage = null;
             this.pictureBox43.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1163,6 +1183,7 @@
             // 
             // pictureBox44
             // 
+            this.pictureBox44.BackColor = System.Drawing.Color.White;
             this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox44.ErrorImage = null;
             this.pictureBox44.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1175,6 +1196,7 @@
             // 
             // pictureBox45
             // 
+            this.pictureBox45.BackColor = System.Drawing.Color.White;
             this.pictureBox45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox45.ErrorImage = null;
             this.pictureBox45.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1187,6 +1209,7 @@
             // 
             // pictureBox46
             // 
+            this.pictureBox46.BackColor = System.Drawing.Color.White;
             this.pictureBox46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox46.ErrorImage = null;
             this.pictureBox46.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1199,6 +1222,7 @@
             // 
             // pictureBox21
             // 
+            this.pictureBox21.BackColor = System.Drawing.Color.White;
             this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox21.ErrorImage = null;
             this.pictureBox21.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1211,6 +1235,7 @@
             // 
             // pictureBox22
             // 
+            this.pictureBox22.BackColor = System.Drawing.Color.White;
             this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox22.ErrorImage = null;
             this.pictureBox22.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1223,6 +1248,7 @@
             // 
             // pictureBox23
             // 
+            this.pictureBox23.BackColor = System.Drawing.Color.White;
             this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox23.ErrorImage = null;
             this.pictureBox23.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1235,6 +1261,7 @@
             // 
             // pictureBox24
             // 
+            this.pictureBox24.BackColor = System.Drawing.Color.White;
             this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox24.ErrorImage = null;
             this.pictureBox24.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1247,6 +1274,7 @@
             // 
             // pictureBox25
             // 
+            this.pictureBox25.BackColor = System.Drawing.Color.White;
             this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox25.ErrorImage = null;
             this.pictureBox25.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1259,6 +1287,7 @@
             // 
             // pictureBox26
             // 
+            this.pictureBox26.BackColor = System.Drawing.Color.White;
             this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox26.ErrorImage = null;
             this.pictureBox26.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1271,6 +1300,7 @@
             // 
             // pictureBox27
             // 
+            this.pictureBox27.BackColor = System.Drawing.Color.White;
             this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox27.ErrorImage = null;
             this.pictureBox27.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1283,6 +1313,7 @@
             // 
             // pictureBox28
             // 
+            this.pictureBox28.BackColor = System.Drawing.Color.White;
             this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox28.ErrorImage = null;
             this.pictureBox28.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1295,6 +1326,7 @@
             // 
             // pictureBox31
             // 
+            this.pictureBox31.BackColor = System.Drawing.Color.White;
             this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox31.ErrorImage = null;
             this.pictureBox31.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1307,6 +1339,7 @@
             // 
             // pictureBox32
             // 
+            this.pictureBox32.BackColor = System.Drawing.Color.White;
             this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox32.ErrorImage = null;
             this.pictureBox32.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1319,6 +1352,7 @@
             // 
             // pictureBox56
             // 
+            this.pictureBox56.BackColor = System.Drawing.Color.White;
             this.pictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox56.ErrorImage = null;
             this.pictureBox56.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1331,6 +1365,7 @@
             // 
             // pictureBox57
             // 
+            this.pictureBox57.BackColor = System.Drawing.Color.White;
             this.pictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox57.ErrorImage = null;
             this.pictureBox57.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels;
@@ -1343,6 +1378,7 @@
             // 
             // pictureBox10
             // 
+            this.pictureBox10.BackColor = System.Drawing.Color.White;
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox10.ErrorImage = null;
             this.pictureBox10.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1355,6 +1391,7 @@
             // 
             // pictureBox11
             // 
+            this.pictureBox11.BackColor = System.Drawing.Color.White;
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox11.ErrorImage = null;
             this.pictureBox11.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1367,6 +1404,7 @@
             // 
             // pictureBox12
             // 
+            this.pictureBox12.BackColor = System.Drawing.Color.White;
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox12.ErrorImage = null;
             this.pictureBox12.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1379,6 +1417,7 @@
             // 
             // pictureBox13
             // 
+            this.pictureBox13.BackColor = System.Drawing.Color.White;
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox13.ErrorImage = null;
             this.pictureBox13.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1391,6 +1430,7 @@
             // 
             // pictureBox14
             // 
+            this.pictureBox14.BackColor = System.Drawing.Color.White;
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox14.ErrorImage = null;
             this.pictureBox14.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1403,6 +1443,7 @@
             // 
             // pictureBox15
             // 
+            this.pictureBox15.BackColor = System.Drawing.Color.White;
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox15.ErrorImage = null;
             this.pictureBox15.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1415,6 +1456,7 @@
             // 
             // pictureBox16
             // 
+            this.pictureBox16.BackColor = System.Drawing.Color.White;
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox16.ErrorImage = null;
             this.pictureBox16.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1427,6 +1469,7 @@
             // 
             // pictureBox29
             // 
+            this.pictureBox29.BackColor = System.Drawing.Color.White;
             this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox29.ErrorImage = null;
             this.pictureBox29.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1439,6 +1482,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.ErrorImage = null;
             this.pictureBox2.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1451,6 +1495,7 @@
             // 
             // pictureBox30
             // 
+            this.pictureBox30.BackColor = System.Drawing.Color.White;
             this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox30.ErrorImage = null;
             this.pictureBox30.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1463,6 +1508,7 @@
             // 
             // pictureBox55
             // 
+            this.pictureBox55.BackColor = System.Drawing.Color.White;
             this.pictureBox55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox55.ErrorImage = null;
             this.pictureBox55.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1475,6 +1521,7 @@
             // 
             // pictureBox58
             // 
+            this.pictureBox58.BackColor = System.Drawing.Color.White;
             this.pictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox58.ErrorImage = null;
             this.pictureBox58.Image = global::Proyecto_final.Properties.Resources.fef0c563c39f2746c35604e969ffe3ef_silhueta_de_vista_frontal_do_carro_bmw_by_vexels___copia;
@@ -1487,6 +1534,7 @@
             // 
             // pictureBox62
             // 
+            this.pictureBox62.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox62.ErrorImage = null;
             this.pictureBox62.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox62.Location = new System.Drawing.Point(872, 180);
@@ -1498,6 +1546,7 @@
             // 
             // pictureBox64
             // 
+            this.pictureBox64.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox64.ErrorImage = null;
             this.pictureBox64.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox64.Location = new System.Drawing.Point(685, 180);
@@ -1509,6 +1558,7 @@
             // 
             // pictureBox67
             // 
+            this.pictureBox67.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox67.ErrorImage = null;
             this.pictureBox67.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox67.Location = new System.Drawing.Point(494, 180);
@@ -1520,6 +1570,7 @@
             // 
             // pictureBox68
             // 
+            this.pictureBox68.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox68.ErrorImage = null;
             this.pictureBox68.Image = global::Proyecto_final.Properties.Resources._322331;
             this.pictureBox68.Location = new System.Drawing.Point(305, 180);
@@ -1529,12 +1580,22 @@
             this.pictureBox68.TabIndex = 237;
             this.pictureBox68.TabStop = false;
             // 
+            // metroButton54
+            // 
+            this.metroButton54.Location = new System.Drawing.Point(1145, 38);
+            this.metroButton54.Name = "metroButton54";
+            this.metroButton54.Size = new System.Drawing.Size(94, 34);
+            this.metroButton54.TabIndex = 242;
+            this.metroButton54.Text = "Menu Principal";
+            this.metroButton54.UseSelectable = true;
+            // 
             // Cajones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGray;
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1254, 765);
+            this.Controls.Add(this.metroButton54);
             this.Controls.Add(this.pictureBox62);
             this.Controls.Add(this.pictureBox64);
             this.Controls.Add(this.pictureBox67);
@@ -1859,5 +1920,6 @@
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox29;
+        private MetroFramework.Controls.MetroButton metroButton54;
     }
 }
