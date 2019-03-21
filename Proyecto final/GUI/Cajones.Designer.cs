@@ -1598,7 +1598,7 @@
             this.metroButton54.Name = "metroButton54";
             this.metroButton54.Size = new System.Drawing.Size(94, 34);
             this.metroButton54.TabIndex = 242;
-            this.metroButton54.Text = "Menu Principal";
+            this.metroButton54.Text = "Cerrar";
             this.metroButton54.UseSelectable = true;
             // 
             // Cajones

@@ -41,5 +41,10 @@ namespace Proyecto_final
         {
 
         }
+
+        private void btn_Eliminar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
