@@ -93,7 +93,7 @@ namespace Proyecto_final
         private void btn_Ingresar_Click(object sender, EventArgs e)
         {
 
-            if (txt_Usuario.Text=="ikis" || txt_Contraseña.Text=="12334")
+            if (txt_Usuario.Text=="ikis" || txt_Contraseña.Text=="1234")
             {
                 Menu menu = new Menu();
                 menu.Show();
