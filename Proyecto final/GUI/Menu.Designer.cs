@@ -36,9 +36,9 @@
             this.btn_Cerrar = new System.Windows.Forms.PictureBox();
             this.Marco_Menu = new System.Windows.Forms.Panel();
             this.btn_Cliente = new System.Windows.Forms.Button();
+            this.btn_Estacionamiento = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.btn_Empleado = new System.Windows.Forms.Button();
             this.btn_Salir = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
@@ -135,7 +135,7 @@
             this.Marco_Menu.BackColor = System.Drawing.Color.Navy;
             this.Marco_Menu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Marco_Menu.Controls.Add(this.btn_Cliente);
-            this.Marco_Menu.Controls.Add(this.btn_Empleado);
+            this.Marco_Menu.Controls.Add(this.btn_Estacionamiento);
             this.Marco_Menu.Controls.Add(this.button2);
             this.Marco_Menu.Controls.Add(this.button1);
             this.Marco_Menu.Controls.Add(this.btn_Salir);
@@ -144,81 +144,82 @@
             this.Marco_Menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.Marco_Menu.Location = new System.Drawing.Point(0, 35);
             this.Marco_Menu.Name = "Marco_Menu";
-            this.Marco_Menu.Size = new System.Drawing.Size(193, 615);
+            this.Marco_Menu.Size = new System.Drawing.Size(247, 615);
             this.Marco_Menu.TabIndex = 1;
+            this.Marco_Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.Marco_Menu_Paint);
             // 
             // btn_Cliente
             // 
-            this.btn_Cliente.BackColor = System.Drawing.Color.Lavender;
+            this.btn_Cliente.BackColor = System.Drawing.Color.Navy;
             this.btn_Cliente.FlatAppearance.BorderSize = 0;
             this.btn_Cliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
             this.btn_Cliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
             this.btn_Cliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cliente.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Cliente.ForeColor = System.Drawing.Color.Navy;
+            this.btn_Cliente.ForeColor = System.Drawing.Color.White;
             this.btn_Cliente.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
             this.btn_Cliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Cliente.Location = new System.Drawing.Point(4, 367);
             this.btn_Cliente.Name = "btn_Cliente";
-            this.btn_Cliente.Size = new System.Drawing.Size(182, 51);
+            this.btn_Cliente.Size = new System.Drawing.Size(232, 51);
             this.btn_Cliente.TabIndex = 6;
             this.btn_Cliente.Text = "Cliente";
             this.btn_Cliente.UseVisualStyleBackColor = false;
             // 
+            // btn_Estacionamiento
+            // 
+            this.btn_Estacionamiento.BackColor = System.Drawing.Color.Navy;
+            this.btn_Estacionamiento.FlatAppearance.BorderSize = 0;
+            this.btn_Estacionamiento.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
+            this.btn_Estacionamiento.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
+            this.btn_Estacionamiento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Estacionamiento.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Estacionamiento.ForeColor = System.Drawing.Color.White;
+            this.btn_Estacionamiento.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
+            this.btn_Estacionamiento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Estacionamiento.Location = new System.Drawing.Point(4, 196);
+            this.btn_Estacionamiento.Name = "btn_Estacionamiento";
+            this.btn_Estacionamiento.Size = new System.Drawing.Size(232, 51);
+            this.btn_Estacionamiento.TabIndex = 1;
+            this.btn_Estacionamiento.Text = "Estacionamiento";
+            this.btn_Estacionamiento.UseVisualStyleBackColor = false;
+            this.btn_Estacionamiento.Click += new System.EventHandler(this.btn_Empleado_Click);
+            // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Lavender;
+            this.button2.BackColor = System.Drawing.Color.Navy;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Navy;
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(4, 253);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 51);
+            this.button2.Size = new System.Drawing.Size(232, 51);
             this.button2.TabIndex = 5;
             this.button2.Text = "Empleado";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Lavender;
+            this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Navy;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(4, 310);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 51);
+            this.button1.Size = new System.Drawing.Size(232, 51);
             this.button1.TabIndex = 4;
             this.button1.Text = "Cajones";
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // btn_Empleado
-            // 
-            this.btn_Empleado.BackColor = System.Drawing.Color.Lavender;
-            this.btn_Empleado.FlatAppearance.BorderSize = 0;
-            this.btn_Empleado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MintCream;
-            this.btn_Empleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumTurquoise;
-            this.btn_Empleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Empleado.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Empleado.ForeColor = System.Drawing.Color.Navy;
-            this.btn_Empleado.Image = global::Proyecto_final.Properties.Resources.empresario__1_;
-            this.btn_Empleado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Empleado.Location = new System.Drawing.Point(4, 196);
-            this.btn_Empleado.Name = "btn_Empleado";
-            this.btn_Empleado.Size = new System.Drawing.Size(182, 51);
-            this.btn_Empleado.TabIndex = 1;
-            this.btn_Empleado.Text = "Empleado";
-            this.btn_Empleado.UseVisualStyleBackColor = false;
-            this.btn_Empleado.Click += new System.EventHandler(this.btn_Empleado_Click);
             // 
             // btn_Salir
             // 
@@ -228,7 +229,7 @@
             this.btn_Salir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
             this.btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Salir.Font = new System.Drawing.Font("Times New Roman", 20.25F);
-            this.btn_Salir.Location = new System.Drawing.Point(37, 563);
+            this.btn_Salir.Location = new System.Drawing.Point(68, 563);
             this.btn_Salir.Name = "btn_Salir";
             this.btn_Salir.Size = new System.Drawing.Size(112, 39);
             this.btn_Salir.TabIndex = 1;
@@ -243,7 +244,7 @@
             this.panel5.Controls.Add(this.button4);
             this.panel5.Controls.Add(this.button3);
             this.panel5.ForeColor = System.Drawing.Color.White;
-            this.panel5.Location = new System.Drawing.Point(12, 424);
+            this.panel5.Location = new System.Drawing.Point(37, 424);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(167, 111);
             this.panel5.TabIndex = 7;
@@ -287,7 +288,7 @@
             this.perfil.BackColor = System.Drawing.Color.Navy;
             this.perfil.Controls.Add(this.usuario);
             this.perfil.ForeColor = System.Drawing.Color.White;
-            this.perfil.Location = new System.Drawing.Point(0, -1);
+            this.perfil.Location = new System.Drawing.Point(24, -1);
             this.perfil.Name = "perfil";
             this.perfil.Size = new System.Drawing.Size(192, 191);
             this.perfil.TabIndex = 3;
@@ -297,12 +298,13 @@
             this.usuario.BackColor = System.Drawing.Color.Lavender;
             this.usuario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.usuario.Image = global::Proyecto_final.Properties.Resources.hombre;
-            this.usuario.Location = new System.Drawing.Point(3, 19);
+            this.usuario.Location = new System.Drawing.Point(0, 0);
             this.usuario.Name = "usuario";
-            this.usuario.Size = new System.Drawing.Size(186, 158);
+            this.usuario.Size = new System.Drawing.Size(193, 191);
             this.usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.usuario.TabIndex = 0;
             this.usuario.TabStop = false;
+            this.usuario.Click += new System.EventHandler(this.usuario_Click);
             // 
             // Panel_Contenedor
             // 
@@ -311,9 +313,9 @@
             this.Panel_Contenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Panel_Contenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel_Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel_Contenedor.Location = new System.Drawing.Point(193, 35);
+            this.Panel_Contenedor.Location = new System.Drawing.Point(247, 35);
             this.Panel_Contenedor.Name = "Panel_Contenedor";
-            this.Panel_Contenedor.Size = new System.Drawing.Size(1107, 615);
+            this.Panel_Contenedor.Size = new System.Drawing.Size(1053, 615);
             this.Panel_Contenedor.TabIndex = 2;
             this.Panel_Contenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel_Contenedor_Paint);
             // 
@@ -351,7 +353,7 @@
         private System.Windows.Forms.PictureBox btn_Maximizar;
         private System.Windows.Forms.PictureBox btn_Minimizar;
         private System.Windows.Forms.PictureBox btn_Restaurar;
-        private System.Windows.Forms.Button btn_Empleado;
+        private System.Windows.Forms.Button btn_Estacionamiento;
         private System.Windows.Forms.Panel perfil;
         private System.Windows.Forms.PictureBox usuario;
         private System.Windows.Forms.Button btn_Salir;
