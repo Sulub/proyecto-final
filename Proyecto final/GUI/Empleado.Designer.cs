@@ -39,11 +39,11 @@
             this.txt_Id_Empleado = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_Buscar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_buscar = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_telefonoEmpl = new System.Windows.Forms.TextBox();
+            this.txt_direccionEmple = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -110,8 +110,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btn_Buscar);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txt_buscar);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(115, 12);
@@ -131,19 +132,19 @@
             this.btn_Buscar.TabIndex = 16;
             this.btn_Buscar.UseVisualStyleBackColor = false;
             // 
-            // textBox3
+            // txt_buscar
             // 
-            this.textBox3.Location = new System.Drawing.Point(17, 186);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(254, 33);
-            this.textBox3.TabIndex = 15;
+            this.txt_buscar.Location = new System.Drawing.Point(17, 186);
+            this.txt_buscar.Multiline = true;
+            this.txt_buscar.Name = "txt_buscar";
+            this.txt_buscar.Size = new System.Drawing.Size(254, 33);
+            this.txt_buscar.TabIndex = 15;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_telefonoEmpl);
+            this.groupBox1.Controls.Add(this.txt_direccionEmple);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -169,19 +170,19 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 28);
             this.comboBox1.TabIndex = 13;
             // 
-            // textBox2
+            // txt_telefonoEmpl
             // 
-            this.textBox2.Location = new System.Drawing.Point(368, 131);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 26);
-            this.textBox2.TabIndex = 10;
+            this.txt_telefonoEmpl.Location = new System.Drawing.Point(368, 131);
+            this.txt_telefonoEmpl.Name = "txt_telefonoEmpl";
+            this.txt_telefonoEmpl.Size = new System.Drawing.Size(121, 26);
+            this.txt_telefonoEmpl.TabIndex = 10;
             // 
-            // textBox1
+            // txt_direccionEmple
             // 
-            this.textBox1.Location = new System.Drawing.Point(115, 131);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(115, 26);
-            this.textBox1.TabIndex = 9;
+            this.txt_direccionEmple.Location = new System.Drawing.Point(115, 131);
+            this.txt_direccionEmple.Name = "txt_direccionEmple";
+            this.txt_direccionEmple.Size = new System.Drawing.Size(115, 26);
+            this.txt_direccionEmple.TabIndex = 9;
             // 
             // label5
             // 
@@ -191,7 +192,7 @@
             this.label5.Size = new System.Drawing.Size(68, 20);
             this.label5.TabIndex = 8;
             this.label5.Text = "Horario";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // label4
             // 
@@ -201,7 +202,7 @@
             this.label4.Size = new System.Drawing.Size(79, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "Teléfono";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // label3
             // 
@@ -273,6 +274,7 @@
             this.btn_Eliminar.Size = new System.Drawing.Size(169, 49);
             this.btn_Eliminar.TabIndex = 10;
             this.btn_Eliminar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+           
             // 
             // btn_Guardar
             // 
@@ -323,7 +325,7 @@
             this.btn_Actualizar.Size = new System.Drawing.Size(169, 49);
             this.btn_Actualizar.TabIndex = 8;
             this.btn_Actualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_Actualizar.Click += new System.EventHandler(this.bunifuThinButton22_Click);
+           
             // 
             // btn_Agregar
             // 
@@ -367,7 +369,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = " ";
             this.TransparencyKey = System.Drawing.Color.DodgerBlue;
-            this.Load += new System.EventHandler(this.Empleado_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -387,8 +388,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_Id_Empleado;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_telefonoEmpl;
+        private System.Windows.Forms.TextBox txt_direccionEmple;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -400,7 +401,7 @@
         private Bunifu.Framework.UI.BunifuThinButton2 btn_Eliminar;
         private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid1;
         private System.Windows.Forms.Button btn_Buscar;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_buscar;
         private System.Windows.Forms.GroupBox groupBox1;
     }
 }
