@@ -8,8 +8,7 @@ namespace Proyecto_final.BO
 {
     class DataLoginBO
     {
-        public static string nomuser;
-        public static string passuser;
+        
         
     }
 }
