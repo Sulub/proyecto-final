@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.barra_Titulo = new System.Windows.Forms.Panel();
             this.btn_Restaurar = new System.Windows.Forms.PictureBox();
             this.btn_Minimizar = new System.Windows.Forms.PictureBox();
@@ -309,7 +308,7 @@
             // Panel_Contenedor
             // 
             this.Panel_Contenedor.BackColor = System.Drawing.Color.MintCream;
-            this.Panel_Contenedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Contenedor.BackgroundImage")));
+            this.Panel_Contenedor.BackgroundImage = global::Proyecto_final.Properties.Resources.ddd2f89dd03c4698f1af4f26fb6b01e4;
             this.Panel_Contenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Panel_Contenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel_Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
