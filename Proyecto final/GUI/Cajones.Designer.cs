@@ -835,6 +835,7 @@
             // 
             // pictureBox19
             // 
+            this.pictureBox19.BackColor = System.Drawing.Color.White;
             this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox19.ErrorImage = null;
             this.pictureBox19.Image = global::Proyecto_final.Properties.Resources._108448;
@@ -847,6 +848,7 @@
             // 
             // pictureBox18
             // 
+            this.pictureBox18.BackColor = System.Drawing.Color.White;
             this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox18.ErrorImage = null;
             this.pictureBox18.Image = global::Proyecto_final.Properties.Resources._108448;
@@ -859,6 +861,7 @@
             // 
             // pictureBox17
             // 
+            this.pictureBox17.BackColor = System.Drawing.Color.White;
             this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox17.ErrorImage = null;
             this.pictureBox17.Image = global::Proyecto_final.Properties.Resources._108448;
@@ -871,6 +874,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.White;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox4.ErrorImage = null;
             this.pictureBox4.Image = global::Proyecto_final.Properties.Resources._108448;
@@ -883,6 +887,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.ErrorImage = null;
             this.pictureBox3.Image = global::Proyecto_final.Properties.Resources._108448;
@@ -895,6 +900,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::Proyecto_final.Properties.Resources._108448;
@@ -907,6 +913,7 @@
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackColor = System.Drawing.Color.White;
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox8.ErrorImage = null;
             this.pictureBox8.Image = global::Proyecto_final.Properties.Resources._16247;
@@ -919,7 +926,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.LawnGreen;
+            this.pictureBox7.BackColor = System.Drawing.Color.White;
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox7.ErrorImage = null;
             this.pictureBox7.Image = global::Proyecto_final.Properties.Resources._16247;
@@ -932,6 +939,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox6.ErrorImage = null;
             this.pictureBox6.Image = global::Proyecto_final.Properties.Resources._16247;
@@ -944,6 +952,7 @@
             // 
             // pictureBox39
             // 
+            this.pictureBox39.BackColor = System.Drawing.Color.White;
             this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox39.ErrorImage = null;
             this.pictureBox39.Image = global::Proyecto_final.Properties.Resources._16247;
@@ -956,6 +965,7 @@
             // 
             // pictureBox38
             // 
+            this.pictureBox38.BackColor = System.Drawing.Color.White;
             this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox38.ErrorImage = null;
             this.pictureBox38.Image = global::Proyecto_final.Properties.Resources._16247;
@@ -1048,7 +1058,7 @@
             // 
             // pictureBox36
             // 
-            this.pictureBox36.BackColor = System.Drawing.Color.Navy;
+            this.pictureBox36.BackColor = System.Drawing.Color.White;
             this.pictureBox36.Location = new System.Drawing.Point(1223, 325);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(31, 112);
@@ -1093,6 +1103,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackColor = System.Drawing.Color.White;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox5.ErrorImage = null;
             this.pictureBox5.Image = global::Proyecto_final.Properties.Resources._108448;
@@ -1119,6 +1130,7 @@
             // 
             // pictureBox37
             // 
+            this.pictureBox37.BackColor = System.Drawing.Color.White;
             this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox37.ErrorImage = null;
             this.pictureBox37.Image = global::Proyecto_final.Properties.Resources._16247;
