@@ -78,6 +78,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\AutoEspoBO.cs" />
+    <Compile Include="BO\AutoPensiBO.cs" />
+    <Compile Include="BO\CajonesBO.cs" />
+    <Compile Include="BO\CamionEspoBO.cs" />
+    <Compile Include="BO\CamionPensiBO.cs" />
+    <Compile Include="BO\ClienteEsporadicoBO.cs" />
+    <Compile Include="BO\ClientePensionadoBO.cs" />
+    <Compile Include="BO\ContratoBO.cs" />
+    <Compile Include="BO\DataLoginBO.cs" />
+    <Compile Include="BO\EmpleadoBO.cs" />
+    <Compile Include="BO\EstacionamientoBO.cs" />
+    <Compile Include="BO\HoraTrabajoBO.cs" />
+    <Compile Include="BO\MantenimientoBO.cs" />
+    <Compile Include="BO\MotoEspoBO.cs" />
+    <Compile Include="BO\MotoPensiBO.cs" />
+    <Compile Include="BO\PagoBO.cs" />
+    <Compile Include="BO\PersonaBO.cs" />
+    <Compile Include="BO\RentaBO.cs" />
+    <Compile Include="BO\TicketBO.cs" />
+    <Compile Include="BO\UsuarioBO.cs" />
+    <Compile Include="BO\VehiculoEspoBO.cs" />
+    <Compile Include="BO\VehiculoPensiBO.cs" />
+    <Compile Include="DAO\AutoEspoDAO.cs" />
+    <Compile Include="DAO\AutoPensiDAO.cs" />
+    <Compile Include="DAO\CajonesDAO.cs" />
+    <Compile Include="DAO\CamionEspoDAO.cs" />
+    <Compile Include="DAO\CamionPensiDAO.cs" />
+    <Compile Include="DAO\ClienteEsporadicoDAO.cs" />
+    <Compile Include="DAO\ClientePensionadoDAO.cs" />
+    <Compile Include="DAO\ConexionDAO.cs" />
+    <Compile Include="DAO\ContratoDAO.cs" />
+    <Compile Include="DAO\EmpleadoDAO.cs" />
+    <Compile Include="DAO\EstacionamientoDAO.cs" />
+    <Compile Include="DAO\HoraTrabajoDAO.cs" />
+    <Compile Include="DAO\MantenimientoDAO.cs" />
+    <Compile Include="DAO\MotoEspoDAO.cs" />
+    <Compile Include="DAO\MotoPensiDAO.cs" />
+    <Compile Include="DAO\PagoDAO.cs" />
+    <Compile Include="DAO\RentaDAO.cs" />
+    <Compile Include="DAO\TicketDAO.cs" />
+    <Compile Include="DAO\UsuarioDAO.cs" />
     <Compile Include="GUI\Cajones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,6 +315,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fef0c563c39f2746c35604e969ffe3ef-silhueta-de-vista-frontal-do-carro-bmw-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddd2f89dd03c4698f1af4f26fb6b01e4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddd2f89dd03c4698f1af4f26fb6b01e41.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

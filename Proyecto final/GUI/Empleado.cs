@@ -36,5 +36,10 @@ namespace Proyecto_final
         {
 
         }
+
+        private void bunifuThinButton22_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
