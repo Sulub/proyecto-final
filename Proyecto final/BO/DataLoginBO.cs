@@ -8,7 +8,6 @@ namespace Proyecto_final.BO
 {
     class DataLoginBO
     {
-        
-        
+       
     }
 }
