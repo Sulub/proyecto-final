@@ -87,11 +87,11 @@
     <Compile Include="GUI\Cajones.Designer.cs">
       <DependentUpon>Cajones.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Cliente Esporadico.cs">
+    <Compile Include="GUI\Cliente .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Cliente Esporadico.Designer.cs">
-      <DependentUpon>Cliente Esporadico.cs</DependentUpon>
+    <Compile Include="GUI\Cliente .Designer.cs">
+      <DependentUpon>Cliente .cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Empleado.cs">
       <SubType>Form</SubType>
@@ -116,8 +116,8 @@
     <EmbeddedResource Include="GUI\Cajones.resx">
       <DependentUpon>Cajones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Cliente Esporadico.resx">
-      <DependentUpon>Cliente Esporadico.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\Cliente .resx">
+      <DependentUpon>Cliente .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Empleado.resx">
       <DependentUpon>Empleado.cs</DependentUpon>
