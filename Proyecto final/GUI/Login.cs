@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Proyecto_final.GUI;
 
 namespace Proyecto_final
 {
@@ -27,27 +28,37 @@ namespace Proyecto_final
 
         private void txt_Usuario_Enter(object sender, EventArgs e)
         {
-            if (txt_Usuario.Text == "usuario")  txt_Usuario.Text = "";
-            txt_Usuario.ForeColor = Color.LightGray;
+            if (txt_Usuario.Text == "Usuario")
+            {
+                txt_Usuario.Text = "";
+                txt_Usuario.ForeColor = Color.LightGray;
 
+            }
         }
 
         private void txt_Usuario_Leave(object sender, EventArgs e)
         {
-            if (txt_Usuario.Text == "") txt_Usuario.Text = "usuario";
-            txt_Usuario.ForeColor = Color.DimGray;
+            if (txt_Usuario.Text == "")
+            {
+                txt_Usuario.Text = "Usuario";
+                txt_Usuario.ForeColor = Color.DimGray;
+            }
         }
 
         private void txt_Contraseña_Enter(object sender, EventArgs e)
         {
-            if (txt_Contraseña.Text == "contraseña") txt_Contraseña.Text = "";
-            txt_Contraseña.ForeColor = Color.LightGray;
-            txt_Contraseña.UseSystemPasswordChar = true;
+            if (txt_Contraseña.Text == "Contraseña")
+            {
+                txt_Contraseña.Text = "";
+                txt_Contraseña.ForeColor = Color.LightGray;
+                txt_Contraseña.UseSystemPasswordChar = true;
+            }
         }
 
         private void txt_Contraseña_Leave(object sender, EventArgs e)
         {
-            if (txt_Contraseña.Text == "") txt_Contraseña.Text = "contraseña";
+            if (txt_Contraseña.Text == "") 
+            txt_Contraseña.Text = "Contraseña";
             txt_Contraseña.ForeColor = Color.DimGray;
             txt_Contraseña.UseSystemPasswordChar = false;
         }
@@ -81,20 +92,12 @@ namespace Proyecto_final
 
         private void btn_Ingresar_Click(object sender, EventArgs e)
         {
-            string pass = txt_Usuario.Text;
-            string usuario = txt_Usuario.Text;
 
-            if (usuario == "irving" || pass == "12345")
+            if (txt_Usuario.Text=="ikis" || txt_Contraseña.Text=="12334")
             {
-                MessageBox.Show("BIenvenido");
                 Menu menu = new Menu();
                 menu.Show();
                 this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("El nombre de usuario o contraseña incorrecta.")
-                    ;
             }
             
         }

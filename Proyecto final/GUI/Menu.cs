@@ -102,6 +102,21 @@ namespace Proyecto_final
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void usuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Marco_Menu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     
 }
