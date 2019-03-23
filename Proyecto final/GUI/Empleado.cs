@@ -17,11 +17,29 @@ namespace Proyecto_final
             InitializeComponent();
         }
 
-       
-        
+        private void label4_Click(object sender, EventArgs e)
+        {
 
-       
+        }
 
-       
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Empleado_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuThinButton22_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
